@@ -23,6 +23,7 @@ Autoloader::add_classes(array(
 	'GoCardless_Subscription'  		=> __DIR__.'/classes/GoCardless/Subscription.php',
 	'GoCardless_User'  				=> __DIR__.'/classes/GoCardless/User.php',
 	'GoCardless_Utils'  			=> __DIR__.'/classes/GoCardless/Utils.php',
+	'GoCardless_ApiException'		=> __DIR__.'/classes/GoCardless/Exceptions.php'
 
 ));
 
